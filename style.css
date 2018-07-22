@@ -1,0 +1,29 @@
+.right-col{
+    background: #1da1f2;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+.right-col ul {
+    list-style: none;
+    z-index:1 ;
+}
+.right-col ul li {
+    margin: 48px 0 ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.right-col ul li i {
+    margin-right: 16px;
+    font-size: 32px;
+}
+.background{
+    font-size: 900px;
+    position: absolute;
+    top: -120px ;
+    right: -250px;
+    opacity: 0.1;
+    
+}
