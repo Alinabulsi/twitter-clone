@@ -1,29 +1,45 @@
-.right-col{
+.left-col{
     background: #1da1f2;
     height: 100vh;
     position: relative;
     overflow: hidden;
     
 }
-.right-col ul {
+.left-col ul {
     list-style: none;
     z-index:1 ;
 }
-.right-col ul li {
+.left-col ul li {
     margin: 48px 0 ;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
 }
-.right-col ul li i {
-    margin-right: 16px;
+.left-col ul li i {
+    margin-left: 16px;
     font-size: 32px;
 }
 .background{
     font-size: 900px;
     position: absolute;
     top: -120px ;
-    right: -250px;
+    left: -250px;
     opacity: 0.1;
     
+}
+.right-col .row form{
+    margin-top: 20px;
+
+}
+.right-col .row form .form-input {
+    margin-right: 10px;
+}
+.right-col .row form input {
+    height: 40px;
+    border-radius: 4px; 
+    width: 200px;
+}
+.right-col .row form button {
+height: 40px;    
+border-radius: 40px;
 }
