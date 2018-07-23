@@ -16,14 +16,14 @@
     color: #fff;
 }
 .left-col ul li i {
-    margin-left: 16px;
+    margin-right: 16px;
     font-size: 32px;
 }
 .background{
-    font-size: 900px;
+    font-size: 1150px;
     position: absolute;
-    top: -120px ;
-    left: -250px;
+    top: -250px ;
+    right: -540px;
     opacity: 0.1;
     
 }
@@ -37,9 +37,29 @@
 .right-col .row form input {
     height: 40px;
     border-radius: 4px; 
-    width: 200px;
+    width: 250px;
 }
 .right-col .row form button {
 height: 40px;    
 border-radius: 40px;
+}
+
+.root .right-col .mid-row  {
+    width: 310px;
+margin-top: 175px;
+
+}
+
+.root .right-col .mid-row div {
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.root .right-col .lower-row {
+    width: 310px;
+    margin-top: 50px;
+}
+.root .right-col .lower-row div {
+    font-size: 18px;
+    font-weight: bold;
 }

@@ -16,7 +16,7 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row root">
             <div class="col left-col d-flex justify-content-center align-items-center">
                 <ul>
                     <li class="d-flex align-items-center">
@@ -37,7 +37,7 @@
             <div class="col right-col">
                 <div class="row justify-content-center">
                     <form action="" class="d-flex">
-                        <input type="email" class="form-input form-control" placeholder="E-Mail">
+                        <input type="email" class="form-input form-control" placeholder="Phone , E-Mail or Username">
                         <div class="form-input d-flex flex-column">
                             <input type="password" class="form-control" placeholder="Password">
                             <a href="#">Forgit Password</a>
@@ -48,25 +48,29 @@
 
                     </form>
                 </div>
-                <div class="mid-row row">
-                    <i class="fab fa-twitter"></i>
-                    <div>
-                        See what’s happening in the world right now
+                <div class="mid-row-container d-flex justify-content-center">
+                    <div class="mid-row row flex-column">
+                        <i class="fab fa-twitter align-self-start"></i>
+                        <div>
+                            See what’s happening in the world right now
+                        </div>
                     </div>
                 </div>
-                <div class="lower-row row">
-                    <div>
-                        Join Twitter today.
+                <div class="lower-row-container d-flex justify-content-center">
+                    <div class="lower-row row flex-column">
+                        <div>
+                            Join Twitter today.
+                        </div>
+                        <button class="btn btn-primary">
+                            Sign Up
+                        </button>
+                        <button class="btn btn-outline-primary">
+                            Log In
+                        </button>
                     </div>
-                    <button>
-                        Sign Up
-                    </button>
-                    <button>
-                        Log In
-                    </button>
+
+
                 </div>
-
-
             </div>
 
         </div>
