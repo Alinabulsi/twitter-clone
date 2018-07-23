@@ -2,6 +2,8 @@ button{
     border-radius: 40px !important
 
 }
+
+
 .left-col{
     background: #1da1f2;
     height: 100vh;
@@ -35,8 +37,11 @@ button{
     margin-top: 20px;
 
 }
+
+
 .right-col .row form .form-input {
     margin-right: 10px;
+    
 
 }
 .right-col .row form .form-input a {
@@ -48,6 +53,7 @@ font-size: 14px;
     border-radius: 4px; 
     width: 250px;
     border: 1px solid #e6ecf0;
+    font-size: 12px;
 }
 .right-col .row form button {
 height: 40px;    
@@ -83,12 +89,13 @@ margin-top: 90px;
 
 .footer ul {
     list-style: none;
+    margin: auto;
 }
 
 .footer ul li {
     display: inline-block;
     font-size: 12px;
-    padding: 10px ;
+    padding: 5px 10PX;
     color: #aab8c2;
 }
 .footer ul li a{
