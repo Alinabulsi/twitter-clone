@@ -1,8 +1,8 @@
-.root ul {
-  background: red;
+body {
+  background: #e6ecf0;
 }
 
-.root .conten {
-  font-size: 12px;
+.navbar {
+  height: 40px;
 }
 /*# sourceMappingURL=profile.css.map */

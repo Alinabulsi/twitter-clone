@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AACI,KADC,CACD,EAAE,CAAC;EACC,UAAU,EAAE,GAAG;CACR;;AAHf,AAII,KAJC,CAID,OAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAAG",
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO;CAAG;;AAC1B,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;CAAG",
     "sources": [
         "profile.sass"
     ],
