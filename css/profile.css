@@ -69,4 +69,9 @@ body {
   margin: 0 15px;
   padding: 0 10px;
 }
+
+.container-fluid .row .col-left .upper .top-button .cover-photo {
+  margin-top: 50px;
+  margin-left: 30px;
+}
 /*# sourceMappingURL=profile.css.map */
