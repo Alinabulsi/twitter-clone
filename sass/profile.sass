@@ -1,18 +1,22 @@
 body 
     background: #e6ecf0
+    font-family: "Segoe UI","Arial","sans-serif"
 .navbar
     height: 50px
     padding: 0
+    box-shadow: 0 0 10px 1px grey
     .row 
         margin: 0
-        width: 100% 
+        width: 1190px 
         .col
             padding: 0
         .col-left
-            margin-left: 20px   
+
             .menu-item
                 margin: 0 10px
                 cursor: pointer
+                color: grey
+                font-weight: bold
                 &:hover
                     color: #1c94e0
                     border-bottom: 2px solid #1c94e0
@@ -23,7 +27,7 @@ body
                 cursor: pointer
         .col-right
             a 
-                margin: 0 15px
+                // margin: 0 15px
                 img
                     height: 30px
                     width: 30px
@@ -40,9 +44,17 @@ body
                     right: 10px                    
                     opacity: 0.3
             .btn
-                height: 30px
+                height: 20px
                 margin: 0 15px
-                padding: 0 10px
+                background: #2FC2EF
+                border: none
+                color: #fff
+                font-size: 14px
+                font-weight: bold
+                border-radius: 30px
+                padding: 6px 16px
+                box-sizing: content-box
+
 .container-fluid
     margin-top: 56px
     padding: 0
@@ -72,6 +84,18 @@ body
                             div 
                             .title
                                     color: #657786
+            .lower
+                margin-top: 50px
+                padding: 10px
+                .title
+                    .trends-title
+                        font-size: 20px
+                    .trends-change
+                        a
+                            color: #2FC2EF
+                            font-size: 12px
+
+                        
                        
                                 
                            

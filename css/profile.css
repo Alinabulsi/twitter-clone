@@ -1,28 +1,29 @@
 body {
   background: #e6ecf0;
+  font-family: "Segoe UI","Arial","sans-serif";
 }
 
 .navbar {
   height: 50px;
   padding: 0;
+  -webkit-box-shadow: 0 0 10px 1px grey;
+          box-shadow: 0 0 10px 1px grey;
 }
 
 .navbar .row {
   margin: 0;
-  width: 100%;
+  width: 1190px;
 }
 
 .navbar .row .col {
   padding: 0;
 }
 
-.navbar .row .col-left {
-  margin-left: 20px;
-}
-
 .navbar .row .col-left .menu-item {
   margin: 0 10px;
   cursor: pointer;
+  color: grey;
+  font-weight: bold;
 }
 
 .navbar .row .col-left .menu-item:hover {
@@ -34,10 +35,6 @@ body {
   color: #1da1f2;
   font-size: 20px;
   cursor: pointer;
-}
-
-.navbar .row .col-right a {
-  margin: 0 15px;
 }
 
 .navbar .row .col-right a img {
@@ -65,9 +62,17 @@ body {
 }
 
 .navbar .row .col-right .btn {
-  height: 30px;
+  height: 20px;
   margin: 0 15px;
-  padding: 0 10px;
+  background: #2FC2EF;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 6px 16px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .container-fluid {
@@ -105,5 +110,19 @@ body {
 
 .container-fluid .row .col-left .upper .bottom .tweets-container a .title {
   color: #657786;
+}
+
+.container-fluid .row .col-left .lower {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.container-fluid .row .col-left .lower .title .trends-title {
+  font-size: 20px;
+}
+
+.container-fluid .row .col-left .lower .title .trends-change a {
+  color: #2FC2EF;
+  font-size: 12px;
 }
 /*# sourceMappingURL=profile.css.map */
