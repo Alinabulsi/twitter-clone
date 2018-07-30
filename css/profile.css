@@ -85,6 +85,11 @@ body {
   margin: 0 auto;
 }
 
+.container-fluid .row .col-left .upper {
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+
 .container-fluid .row .col-left .upper .top .cover-photo img {
   border: 1px solid #e6ecf0;
   border-radius: 5px;
@@ -103,6 +108,10 @@ body {
   margin-left: 100px;
 }
 
+.container-fluid .row .col-left .upper .bottom .stats {
+  padding: 0 16px 0 16px;
+}
+
 .container-fluid .row .col-left .upper .bottom .tweets-container {
   margin-top: 25px;
   margin-right: 60px;
@@ -113,8 +122,9 @@ body {
 }
 
 .container-fluid .row .col-left .lower {
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 10px;
+  background: #ffffff;
 }
 
 .container-fluid .row .col-left .lower .title .trends-title {
@@ -123,6 +133,17 @@ body {
 
 .container-fluid .row .col-left .lower .title .trends-change a {
   color: #2FC2EF;
+  font-size: 12px;
+}
+
+.container-fluid .row .col-left .lower .trends-items .trend-item a .trends {
+  font-size: 14px;
+  color: #2FC2EF;
+  font-weight: bold;
+}
+
+.container-fluid .row .col-left .lower .trends-items .trend-item a .tweeting {
+  color: #657786;
   font-size: 12px;
 }
 /*# sourceMappingURL=profile.css.map */
