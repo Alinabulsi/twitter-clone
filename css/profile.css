@@ -146,4 +146,9 @@ body {
   color: #657786;
   font-size: 12px;
 }
+
+.container-fluid .row .Main-col .tweet-box img {
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=profile.css.map */
