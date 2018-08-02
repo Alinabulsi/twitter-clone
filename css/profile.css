@@ -85,6 +85,10 @@ body {
   margin: 0 auto;
 }
 
+.container-fluid .row .col-left {
+  max-width: 290px;
+}
+
 .container-fluid .row .col-left .upper {
   background: #ffffff;
   padding-bottom: 20px;
@@ -93,10 +97,11 @@ body {
 .container-fluid .row .col-left .upper .top .cover-photo img {
   border: 1px solid #e6ecf0;
   border-radius: 5px;
+  width: 100%;
 }
 
 .container-fluid .row .col-left .upper .top .user-avatar {
-  top: 100px;
+  top: 75px;
   left: 10px;
 }
 
@@ -108,17 +113,37 @@ body {
   margin-left: 100px;
 }
 
+.container-fluid .row .col-left .upper .bottom .container-profile a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container-fluid .row .col-left .upper .bottom .container-profile a.prof-name {
+  font-size: 12px;
+  color: #657786;
+  font-weight: normal;
+}
+
 .container-fluid .row .col-left .upper .bottom .stats {
   padding: 0 16px 0 16px;
 }
 
 .container-fluid .row .col-left .upper .bottom .tweets-container {
   margin-top: 25px;
-  margin-right: 60px;
+  margin-right: 22px;
 }
 
 .container-fluid .row .col-left .upper .bottom .tweets-container a .title {
   color: #657786;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container-fluid .row .col-left .upper .bottom .tweets-container a .state-value {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  color: #2FC2EF;
 }
 
 .container-fluid .row .col-left .lower {
@@ -147,8 +172,20 @@ body {
   font-size: 12px;
 }
 
+.container-fluid .row .Main-col {
+  max-width: 590px;
+}
+
 .container-fluid .row .Main-col .tweet-box img {
   width: 30px;
   height: 30px;
+}
+
+.container-fluid .row .Main-col .tweet-box .area-label {
+  width: 100%;
+}
+
+.container-fluid .row .Main-col .tweet-box .area-label input {
+  width: 100%;
 }
 /*# sourceMappingURL=profile.css.map */

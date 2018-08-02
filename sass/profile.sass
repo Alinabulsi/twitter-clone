@@ -62,6 +62,7 @@ body
         width: 1190px
         margin: 0 auto
         .col-left
+            max-width: 290px
             .upper
                 background: #ffffff
                 padding-bottom: 20px
@@ -70,24 +71,38 @@ body
                         img
                             border: 1px solid #e6ecf0
                             border-radius: 5px
+                            width: 100%
                     .user-avatar
-                        top: 100px
+                        top: 75px
                         left: 10px
                         
                         img
                             width: 75px
                 .bottom
                     .container-profile
-                        margin-left: 100px  
+                        margin-left: 100px
+                        a
+                            font-size: 18px
+                            font-weight: bold
+                        a.prof-name  
+                            font-size: 12px
+                            color: #657786
+                            font-weight: normal
                     .stats
                         padding: 0 16px 0 16px          
                     .tweets-container
                         margin-top: 25px
-                        margin-right: 60px
-                        a
-                            div 
+                        margin-right: 22px
+                        a                         
                             .title
-                                    color: #657786
+                                color: #657786
+                                font-size: 12px
+                                font-weight: bold
+                            .state-value
+                                font-size: 18px
+                                font-weight: bold
+                                padding-top: 3px
+                                color: #2FC2EF
             .lower
                 margin-top: 10px
                 padding: 10px
@@ -111,11 +126,15 @@ body
                                 color: #657786
                                 font-size: 12px
         .Main-col
+            max-width: 590px
             .tweet-box
                 img 
                     width: 30px
                     height: 30px
-
+                .area-label
+                    width: 100%
+                    input
+                        width: 100%
                         
                        
                                 
