@@ -187,5 +187,18 @@ body {
 
 .container-fluid .row .Main-col .tweet-box .area-label input {
   width: 100%;
+  border: 2px solid #e6ecf0;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 2px;
+  outline: none;
+  height: 35px;
+}
+
+.container-fluid .row .Main-col .tweet-box .area-label i {
+  top: 10px;
+  right: 30px;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=profile.css.map */
